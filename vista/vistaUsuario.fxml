@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="401.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.VistaUsuario">
+   <children>
+      <AnchorPane prefHeight="401.0" prefWidth="209.0" style="-fx-background-color: #D7DEE9;">
+         <children>
+            <Button layoutX="37.0" layoutY="157.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="138.0" text="Funcion 1" />
+            <Button layoutX="37.0" layoutY="206.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="136.0" text="Funcion 2" />
+            <ImageView fitHeight="57.0" fitWidth="58.0" layoutX="75.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Recursos%20Certus/PerfilDef.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="36.0" layoutY="251.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="138.0" text="Funcion 3" />
+            <Button fx:id="btnConsultarSaldo" layoutX="35.0" layoutY="294.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #5084A6;" text="Consultar Saldo" textFill="WHITE" />
+            <Button fx:id="btnInformeTransacciones" layoutX="33.0" layoutY="335.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #5084A6;" text="Informe Transacciones" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnRealizarTransaccion" layoutX="37.0" layoutY="157.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #5084A6;" text="Realizar Transacción" textFill="WHITE" />
+      <Button fx:id="btnRetirar" layoutX="37.0" layoutY="204.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #5084A6;" text="Retirar" textFill="WHITE" />
+      <ImageView fx:id="imgUsuario" fitHeight="57.0" fitWidth="58.0" layoutX="75.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Recursos%20Certus/PerfilDef.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnDepositar" layoutX="36.0" layoutY="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #5084A6;" text="Depositar" textFill="WHITE" />
+      <AnchorPane layoutX="-7.0" layoutY="-1.0" prefHeight="72.0" prefWidth="481.0" style="-fx-background-color: #001D51;">
+         <children>
+            <Text fill="WHITE" layoutX="160.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENIDO" textAlignment="CENTER" wrappingWidth="162.3779296875">
+               <font>
+                  <Font size="29.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Text>
+            <Label fx:id="txtNombreUsuario" layoutX="176.0" layoutY="40.0" prefHeight="17.0" prefWidth="131.0" text="Nombre del Usuario" textAlignment="CENTER" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imgLogo1" fitHeight="166.0" fitWidth="159.0" layoutX="260.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Recursos%20Certus/Logo%20color%20Azul.png" />
+         </image>
+         <effect>
+            <Glow level="0.21" />
+         </effect>
+      </ImageView>
+      <Button fx:id="btnHome" layoutX="303.0" layoutY="258.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #AD2A2A;" text="Home" textFill="WHITE">
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

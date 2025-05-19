@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="82.0" prefWidth="520.0" style="-fx-background-color: #001D51;">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="113.0" layoutX="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Recursos%20Certus/Logo%20color%20blanco.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="209.0" layoutY="35.0" prefHeight="25.0" prefWidth="102.0" text="Transaccion" textFill="WHITE">
+               <font>
+                  <Font name="Apple Braille" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="37.0" layoutY="132.0" text="Destinatario">
+         <font>
+            <Font name="Apple Braille" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="37.0" layoutY="155.0" prefHeight="26.0" prefWidth="453.0" promptText="Ingrese la identificacion del destinatario (C.C.)" />
+      <Label layoutX="37.0" layoutY="195.0" text="Monto">
+         <font>
+            <Font name="Apple Braille" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="37.0" layoutY="218.0" prefHeight="26.0" prefWidth="453.0" promptText="Ingrese el monto de la transacción" />
+      <Button layoutX="69.0" layoutY="277.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="389.0" style="-fx-background-color: #001D51;" text="Realizar Transaccion" textFill="WHITE" />
+      <Button layoutX="69.0" layoutY="318.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="389.0" style="-fx-background-color: #AD2A2A;" text="Cancelar Transaccion" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>
